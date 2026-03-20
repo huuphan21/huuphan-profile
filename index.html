@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Phan Hữu - Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+    <div class="main-container">
+        <!-- Header profile (cover, avatar, ...) -->
+        <div class="profile-header">
+            <div class="cover-photo">
+                <img src="image/cover.jpg" alt="Cover">
+            </div>
+            <div class="profile-info">
+                <div class="avatar">
+                    <img src="image/profile.jpg" alt="Avatar">
+                </div>
+                <div class="info-text">
+                    <h1>Phan Hữu</h1>
+                    <p class="bio">Công nghệ • Lập trình • Đam mê I.O.T </p>
+
+                </div>
+                <div class="profile-actions">
+                   
+                    <button class="btn-secondary" id="messageBtn">💬 Nhắn tin</button>
+                     <!-- Nút chuyển đổi dark/light mode -->
+                    <button class="btn-theme" id="themeToggle">🌙</button>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab navigation -->
+        <div class="profile-tabs">
+            <div class="tabs-container">
+                <button class="tab-btn active" data-tab="about">Giới thiệu</button>
+                <button class="tab-btn" id="profileTabBtn" >Profile</button>
+                <button class="tab-btn" data-tab="products">Sản phẩm cá nhân</button>
+
+            </div>
+        </div>
+
+        <!-- Nội dung các tab -->
+         <!-- <div class="content-area">
+                <div id="posts" class="tab-pane active">
+                <div class="post-card">...</div> nội dung bài viết -->
+             </div>
+            <div id="about" class="tab-pane active">
+                <div class="about-card"><h3>Giới thiệu</h3><p>Đam mê công nghệ...</p></div>
+                <div class="about-card"><h3>Nơi làm việc</h3><p>📌 Chưa có thông tin</p></div>
+                <div class="about-card"><h3>Học vấn</h3><p>🎓 Trường Cao đẳng Kỹ thuật Cao Thắng (2019-2022)</p></div>
+                <div class="about-card"><h3>Thông tin liên hệ</h3><p>📧 phanngocxhuu@gmail.com<br>📞 03** *** *73</p></div>
+            
+            </div>
+            
+            <!-- Tab SẢN PHẨM CÁ NHÂN (thay cho Bạn bè) -->
+            <div id="products" class="tab-pane">
+                <div class="products-grid">
+                    <!-- Sản phẩm 1 -->
+                    <div class="product-card">
+                        <h3 class="product-name">
+                            <a href="https://home-seven-taupe.vercel.app/" target="_blank">Workout Style</a>
+                        </h3>
+                        <p class="product-desc">Trang web giới thiệu sản phẩm thể thao, giao diện hiện đại, tập trung vào trải nghiệm người dùng.</p>
+                    </div>
+                    <!-- Sản phẩm 2 -->
+                    <div class="product-card">
+                        <h3 class="product-name">
+                            <a href="https://home-seven-taupe.vercel.app/" target="_blank">RedStore Demo</a>
+                        </h3>
+                        <p class="product-desc">Mẫu shop thời trang với bố cục rõ ràng, hiển thị sản phẩm nổi bật và mới nhất.</p>
+                    </div>
+                </div>
+            </div>
+            
+           
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
