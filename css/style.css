@@ -319,19 +319,16 @@ body.dark-mode .tabs-container {
 .product-name a {
     color: #000000;
     text-decoration: none;
-    transition: color 0.2s;
 }
 
 .product-name a:hover {
-    color: #505050;
     text-decoration: underline;
 }
 
 .product-desc {
-    color: #4a5568;
+    color: #505050;
     line-height: 1.5;
     font-size: 0.95rem;
-    margin: 0;
 }
 
 /* ===== RESPONSIVE ===== */
