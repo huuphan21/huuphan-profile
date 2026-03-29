@@ -317,13 +317,13 @@ body.dark-mode .tabs-container {
 }
 
 .product-name a {
-    color: #4267B2;
+    color: #000000;
     text-decoration: none;
     transition: color 0.2s;
 }
 
 .product-name a:hover {
-    color: #1e3a6b;
+    color: #505050;
     text-decoration: underline;
 }
 
